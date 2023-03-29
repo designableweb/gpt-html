@@ -23,7 +23,7 @@ GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGP
   <li>image: Represents an image element with an optional source.</li>
 </ul>
 
-<h2>Rules</h2>
+<h2>Settings</h2>
 <ul>
   <li>Use # for ID e.g.,'section #hero'= section id="hero"</li>
   <li>Use . for class e.g.,'section.hero'= section class="hero"</li>
