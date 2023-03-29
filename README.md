@@ -43,7 +43,8 @@ col lorem<br />
 col image<br />
 
 <h3>HTML:</h3>
-[code]
+
+```
 <div class="row">
   <div class="col">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -52,7 +53,7 @@ col image<br />
     <img src="">
   </div>
 </div>
-[/code[
+```
 
 <h3>CSS:</h3>
 
