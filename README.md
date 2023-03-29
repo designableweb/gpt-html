@@ -172,6 +172,6 @@ To use GPT-HTML Notation v1.0 with a ChatGPT session, paste this document into a
 <h2>Instructions for ChatGPT Sessions</h2>
 As a ChatGPT session, when you encounter a prompt containing GPT-HTML Notation, your task is to generate the corresponding HTML/CSS code based on the provided notation. Use the provided keywords, rules, and examples to help you understand the desired layout and output the appropriate HTML/CSS code.
 
-<h2>Note from the Author</h2>
+<h2>Note from the Author Bill@designableweb.com</h2>
 Sharing the concept of using notation to create code with ChatGPT is the real value of this document. Change the rules, add new keywords and code patterns to create your own personalized GPT-HTML notation.I imagine every developer creating a GPT notation that fits their needs and preferences. Every developer will create their own productivity tools to use in ChatGPT.
 
