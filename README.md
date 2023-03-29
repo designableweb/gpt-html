@@ -5,8 +5,6 @@ GPT-HTML Notation is a concise, easy-to-understand system for generating HTML/CS
 <h2>Purpose</h2>
 GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGPT by providing a clear and user-friendly notation for describing desired web layouts.
 
-Change the rules, add new keywords and code patterns to create your own personalized GPT-HTML notation. Please fork, let's build a useful tool we can all use.
-
 <h2>Benefits</h2>
 <ul>
   <li>Streamlines the generation of HTML/CSS code using ChatGPT language models</li>
@@ -167,5 +165,5 @@ To use GPT-HTML Notation v1.0 with a ChatGPT session, paste this document into a
 As a ChatGPT session, when you encounter a prompt containing GPT-HTML Notation, your task is to generate the corresponding HTML/CSS code based on the provided notation. Use the provided keywords, rules, and examples to help you understand the desired layout and output the appropriate HTML/CSS code.
 
 <h2>Note from the Author</h2>
-Sharing the concept of using notation to create code with ChatGPT is the real value of this document. I imagine every developer creating a notation that fits their needs and preferences. This type of notation could be used with any coding language. Every developer will to create their own productivity tools to use in ChatGPT.
+Sharing the concept of using notation to create code with ChatGPT is the real value of this document. Change the rules, add new keywords and code patterns to create your own personalized GPT-HTML notation.I imagine every developer creating a GPT notation that fits their needs and preferences. Every developer will to create their own productivity tools to use in ChatGPT.
 
