@@ -42,7 +42,7 @@ row<br />
 col lorem<br />
 col image<br />
 
-<h3>HTML:</h3>
+<h3>HTML OUTPUT:</h3>
 
 ```
 <div class="row">
@@ -55,7 +55,7 @@ col image<br />
 </div>
 ```
 
-<h3>CSS:</h3>
+<h3>CSS OUTPUT:</h3>
 
 ```
 .row {
@@ -81,7 +81,7 @@ row.nested<br />
 col lorem<br />
 col lorem<br />
 
-<h3>HTML:</h3>
+<h3>HTML OUTPUT:</h3>
 
 ```
 <section class="hero" style="background-image: url('image.jpg');">
@@ -108,7 +108,7 @@ col lorem<br />
 </section>
 ```
 
-<h3>CSS:</h3>
+<h3>CSS OUTPUT:</h3>
 
 ```
 .hero {
