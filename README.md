@@ -38,9 +38,9 @@ GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGP
 
 
 <h2>Simple Notation Example:</h2>
-row
-col lorem
-col image
+row<br />
+col lorem<br />
+col image<br />
 
 <strong>HTML:</strong>
 
@@ -67,15 +67,15 @@ col image
 
 <h2>Example Notation Showing All Keywords:</h2>
 
-section.hero image.jpg
-h1 lorem
-section about
-row
-col h2 button contact.html
-col.special image.jpg
-row.nested
-col lorem
-col lorem
+section.hero image.jpg<br />
+h1 lorem<br />
+section about<br />
+row<br />
+col h2 button contact.html<br />
+col.special image.jpg<br />
+row.nested<br />
+col lorem<br />
+col lorem<br />
 
 <strong>HTML:</strong>
 
