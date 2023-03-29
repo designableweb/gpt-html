@@ -25,8 +25,8 @@ GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGP
 
 <h2>Rules</h2>
 <ul>
-  <li>Use # for ID (e.g.,'section #hero'-> <section id="hero"></section>).</li>
-  <li>Use . for class (e.g.,'section.hero'-> <section class="hero"></section>).</li>
+  <li>Use # for ID (e.g.,'section #hero' = <section id="hero"></section>).</li>
+  <li>Use . for class (e.g.,'section.hero' = <section class="hero"></section>).</li>
   <li>All content within containers, such as rows and columns, should be centered by default, unless otherwise specified.</li>
   <li>Set 900px breakpoint.</li>
   <li>Minimal, essential CSS only.</li>
