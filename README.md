@@ -42,7 +42,7 @@ row<br />
 col lorem<br />
 col image<br />
 
-<strong>HTML:</strong>
+<h3>HTML:</h3>
 
 <div class="row">
   <div class="col">
@@ -53,7 +53,7 @@ col image<br />
   </div>
 </div>
 
-<strong>CSS:</strong>
+<h3>CSS:</h3>
 
 .row {
   display: flex;
@@ -77,7 +77,7 @@ row.nested<br />
 col lorem<br />
 col lorem<br />
 
-<strong>HTML:</strong>
+<h3>HTML:</h3>
 
 <section class="hero" style="background-image: url('image.jpg');">
   <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
@@ -102,7 +102,7 @@ col lorem<br />
   </div>
 </section>
 
-<strong>CSS:</strong>
+<h3>CSS:</h3>
 
 .hero {
   background-size: cover;
