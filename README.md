@@ -57,6 +57,7 @@ col image<br />
 
 <h3>CSS:</h3>
 
+```
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +67,7 @@ col image<br />
   flex: 1;
   text-align: center;
 }
+```
 
 <h2>Example Notation Showing All Keywords:</h2>
 
@@ -81,6 +83,7 @@ col lorem<br />
 
 <h3>HTML:</h3>
 
+```
 <section class="hero" style="background-image: url('image.jpg');">
   <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 </section>
@@ -103,9 +106,11 @@ col lorem<br />
     </div>
   </div>
 </section>
+```
 
 <h3>CSS:</h3>
 
+```
 .hero {
   background-size: cover;
   background-position: center;
@@ -159,6 +164,7 @@ col lorem<br />
     margin-bottom: 1rem;
   }
 }
+```
 
 <h2>Instructions for Users</h2>
 To use GPT-HTML Notation v1.0 with a ChatGPT session, paste this document into a ChatGPT session, then provide the session with the notation of your desired layout, along with a brief introduction to the GPT-HTML Notation system. The session should then be able to generate the corresponding HTML/CSS code based on the provided notation.
