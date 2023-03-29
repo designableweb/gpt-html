@@ -2,6 +2,8 @@
 
 GPT-HTML Notation is a concise, easy-to-understand system for generating HTML/CSS code with the help of ChatGPT language models. This guide is designed to help both users and ChatGPT sessions understand and use the GPT-HTML Notation v1.0 effectively.
 
+<b>To use GPT-HTML Notation in your ChatGPT session, you must paste this entire readme into a prompt. After you do that, ChatGPT will then output code when you enter GPT-HTML notation in a prompt.</b>
+
 <h2>Purpose</h2>
 GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGPT by providing a clear and user-friendly notation for describing desired web layouts.
 
