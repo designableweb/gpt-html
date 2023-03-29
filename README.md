@@ -1,19 +1,18 @@
-<h1>GPT-HTML Notation v1.0:</h1?
+<h1>GPT-HTML Notation v1.0:</h1>
 
-A Guide for Users and ChatGPT Sessions
 GPT-HTML Notation is a concise, easy-to-understand system for generating HTML/CSS code with the help of ChatGPT language models. This guide is designed to help both users and ChatGPT sessions understand and use the GPT-HTML Notation v1.0 effectively.
 
-Purpose
+<h2>Purpose</h2>
 GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGPT by providing a clear and user-friendly notation for describing desired web layouts.
 
-Benefits
+<h2>Benefits</h2>
 Streamlines the generation of HTML/CSS code using ChatGPT language models
 Intuitive notation that is easy to learn
 Suitable for web developers of all skill levels
 Keywords and Usage
 Below are the keywords supported by GPT-HTML Notation v1.0:
 
-Notation Keywords
+<h2>Notation Keywords</h2>
 section: Represents an HTML section element with an optional ID and class.
 row: Represents a row element using flexbox.
 col: Represents a column element within a row, with equal widths
@@ -22,7 +21,7 @@ lorem: Represents lorem ipsum text.
 button: Represents a hyperlink with specific styling. Can include an optional URL.
 image: Represents an image element with an optional source.
 
-Rules
+<h2>Rules</h2>
 Use # for ID (e.g., 'section #hero' -> <section id="hero"></section>).
 Use . for class (e.g., 'section.hero' -> <section class="hero"></section>).
 All content within containers, such as rows and columns, should be centered by default, unless otherwise specified.
@@ -33,12 +32,12 @@ Output only necessary HTML & CSS.
 Exclude standard HTML document structure.
 GPT-HTML must follow the first Law of Robotics
 
-Simple Notation Example:
+<h2>Simple Notation Example:</h2>
 row
 col lorem
 col image
 
-HTML:
+<strong>HTML:</strong>
 
 <div class="row">
   <div class="col">
@@ -49,7 +48,7 @@ HTML:
   </div>
 </div>
 
-CSS:
+<strong>CSS:</strong>
 
 .row {
   display: flex;
@@ -61,7 +60,7 @@ CSS:
   text-align: center;
 }
 
-Example Notation Showing All Keywords:
+<h2>Example Notation Showing All Keywords:</h2>
 
 section.hero image.jpg
 h1 lorem
@@ -73,7 +72,7 @@ row.nested
 col lorem
 col lorem
 
-HTML:
+<strong>HTML:</strong>
 
 <section class="hero" style="background-image: url('image.jpg');">
   <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
@@ -98,7 +97,7 @@ HTML:
   </div>
 </section>
 
-CSS:
+<strong>CSS:</strong>
 
 .hero {
   background-size: cover;
@@ -154,9 +153,9 @@ CSS:
   }
 }
 
-Instructions for Users
+<h2>Instructions for Users</h2>
 To use GPT-HTML Notation v1.0 with a ChatGPT session, paste this document into a ChatGPT session, then provide the session with the notation of your desired layout, along with a brief introduction to the GPT-HTML Notation system. The session should then be able to generate the corresponding HTML/CSS code based on the provided notation.
 
-Instructions for ChatGPT Sessions
+<h2>Instructions for ChatGPT Sessions</h2>
 As a ChatGPT session, when you encounter a prompt containing GPT-HTML Notation, your task is to generate the corresponding HTML/CSS code based on the provided notation. Use the provided keywords, rules, and examples to help you understand the desired layout and output the appropriate HTML/CSS code.
 
