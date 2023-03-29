@@ -5,32 +5,39 @@ GPT-HTML Notation is a concise, easy-to-understand system for generating HTML/CS
 <h2>Purpose</h2>
 GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGPT by providing a clear and user-friendly notation for describing desired web layouts.
 
+Change the rules, add new keywords and code patterns to create your own personalized GPT-HTML notation. Please fork, let's build a useful tool we can all use.
+
 <h2>Benefits</h2>
-Streamlines the generation of HTML/CSS code using ChatGPT language models
-Intuitive notation that is easy to learn
-Suitable for web developers of all skill levels
-Keywords and Usage
-Below are the keywords supported by GPT-HTML Notation v1.0:
+<ul>
+  <li>Streamlines the generation of HTML/CSS code using ChatGPT language models</li>
+  <li>Intuitive notation that is easy to learn</li>
+  <li>Suitable for web developers of all skill levels</li>
+</ul>
 
 <h2>Notation Keywords</h2>
-section: Represents an HTML section element with an optional ID and class.
-row: Represents a row element using flexbox.
-col: Represents a column element within a row, with equal widths
-h1, h2, h3, etc.: Represents the corresponding heading element (h1, h2, h3, etc.).
-lorem: Represents lorem ipsum text.
-button: Represents a hyperlink with specific styling. Can include an optional URL.
-image: Represents an image element with an optional source.
+<ul>
+  <li>section: Represents an HTML section element with an optional ID and class.</li>
+  <li>row: Represents a row element using flexbox.</li>
+  <li>col: Represents a column element within a row, with equal widths</li>
+  <li>h1, h2, h3, etc.: Represents the corresponding heading element (h1, h2, h3, etc.).</li>
+  <li>lorem: Represents lorem ipsum text.</li>
+  <li>button: Represents a hyperlink with specific styling. Can include an optional URL.</li>
+  <li>image: Represents an image element with an optional source.</li>
+</ul>
 
 <h2>Rules</h2>
-Use # for ID (e.g., 'section #hero' -> <section id="hero"></section>).
-Use . for class (e.g., 'section.hero' -> <section class="hero"></section>).
-All content within containers, such as rows and columns, should be centered by default, unless otherwise specified.
-Set 900px breakpoint.
-Minimal, essential CSS only.
-Minimal, essential HTML only.
-Output only necessary HTML & CSS.
-Exclude standard HTML document structure.
-GPT-HTML must follow the first Law of Robotics
+<ul>
+  <li>Use # for ID (e.g., 'section #hero' -> <section id="hero"></section>).</li>
+  <li>Use . for class (e.g., 'section.hero' -> <section class="hero"></section>).</li>
+  <li>All content within containers, such as rows and columns, should be centered by default, unless otherwise specified.</li>
+  <li>Set 900px breakpoint.</li>
+  <li>Minimal, essential CSS only.</li>
+  <li>Minimal, essential HTML only.</li>
+  <li>Output only necessary HTML & CSS.</li>
+  <li>Exclude standard HTML document structure.</li>
+  <li>GPT-HTML must follow the first Law of Robotics.</li>
+</ul>
+
 
 <h2>Simple Notation Example:</h2>
 row
@@ -158,4 +165,7 @@ To use GPT-HTML Notation v1.0 with a ChatGPT session, paste this document into a
 
 <h2>Instructions for ChatGPT Sessions</h2>
 As a ChatGPT session, when you encounter a prompt containing GPT-HTML Notation, your task is to generate the corresponding HTML/CSS code based on the provided notation. Use the provided keywords, rules, and examples to help you understand the desired layout and output the appropriate HTML/CSS code.
+
+<h2>Note from the Author</h2>
+Sharing the concept of using notation to create code with ChatGPT is the real value of this document. I imagine every developer creating a notation that fits their needs and preferences. This type of notation could be used with any coding language. Every developer will to create their own productivity tools to use in ChatGPT.
 
