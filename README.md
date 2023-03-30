@@ -35,6 +35,7 @@ GPT-HTML Notation simplifies the process of requesting HTML/CSS code from ChatGP
   <li>Minimal, essential HTML only.</li>
   <li>Output only necessary HTML & CSS.</li>
   <li>Exclude standard HTML document structure.</li>
+  <li>Output HTML/CSS in code blocks.</li>
   <li>GPT-HTML must follow the first Law of Robotics.</li>
 </ul>
 
